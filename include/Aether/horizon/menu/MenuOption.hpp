@@ -42,7 +42,12 @@ namespace Aether {
             void setW(int w);
 
             /**
-             * @brief Set the active status of option
+             * @brief Set element as activated
+             */
+            void setActive() override;
+
+            /**
+             * @brief Set element as activated
              *
              * @param b true if option is selected, false otherwise
              */

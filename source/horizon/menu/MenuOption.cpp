@@ -34,6 +34,10 @@ namespace Aether {
         }
     }
 
+    void MenuOption::setActive() {
+        this->setActive(true);
+    }
+
     void MenuOption::setActive(bool b) {
         if (b) {
             this->rect->setHidden(false);
