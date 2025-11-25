@@ -1,4 +1,4 @@
-#ifndef AETHER_MENUSEPARATOR_HPP
+#ifndef AETHER_MENUSEPERATOR_HPP
 #define AETHER_MENUSEPARATOR_HPP
 
 #include "Aether/base/Element.hpp"
