@@ -24,6 +24,9 @@ namespace Aether {
             Text * text;
 
         public:
+            // 引入基类的setActive方法避免隐藏警告
+            using Element::setActive;
+
             /**
              * @brief Construct a new Menu Option object
              *

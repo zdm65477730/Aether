@@ -15,6 +15,9 @@ namespace Aether {
             MenuOption * active;
 
         public:
+            // 引入基类的setActive方法避免隐藏警告
+            using Scrollable::setActive;
+
             /**
              * @brief Construct a new Menu object.
              * Hides scrollbar + adjusts scroll 'catchup'

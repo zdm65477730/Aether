@@ -59,6 +59,9 @@ namespace Aether {
             void updateMaxScrollPos();
 
         public:
+            // 引入基类的setActive方法以避免隐藏警告
+            using Container::setActive;
+
             /**
              * @brief Construct a new Scrollable object
              *
